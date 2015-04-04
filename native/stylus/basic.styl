@@ -4,19 +4,38 @@ General setting
 body
 	#page
 		max-width 1680px
+		width 100%
 		margin 0 auto
+			
 
+/****
+container setting
+****/	
+.container
 	.row
-		.x
-			border 1px solid black
-			padding 1.5em 0
-		
-	.row > *
-		text-align center
-		transition all 1s ease 0.5s
-		
-	/****
-	Header
-	****/
-	header
+		& > *
+			text-align center
+			transition all 1s ease 0.5s
+
+/****
+header container setting
+****/
+header	
+	.container
+		.row
+			.cell
+				border 1px solid black
+				padding 1.5em 0
+			
+
+/****
+footer container setting
+****/
+footer	
+	.container
+		.row
+			.cell
+				img
+					width 100%
+					
 	

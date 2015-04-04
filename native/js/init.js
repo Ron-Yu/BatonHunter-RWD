@@ -25,7 +25,7 @@ skel.init({
           media: '(max-width: 480px)',
           href: 'css/responsive/style-xsmall.css',
           containers: '100%',
-          grid: { gutters: ['1em', '1em',] }
+          grid: { gutters: ['0', '0',] }
         }
     }
 });

@@ -3,14 +3,27 @@ General setting
 ****/
 body #page {
   max-width: 1680px;
+  width: 100%;
   margin: 0 auto;
 }
-body .row .x {
-  border: 1px solid #000;
-  padding: 1.5em 0;
-}
-body .row > * {
+/****
+container setting
+****/
+.container .row > * {
   text-align: center;
   -webkit-transition: all 1s ease 0.5s;
           transition: all 1s ease 0.5s;
+}
+/****
+header container setting
+****/
+header .container .row .cell {
+  border: 1px solid #000;
+  padding: 1.5em 0;
+}
+/****
+footer container setting
+****/
+footer .container .row .cell img {
+  width: 100%;
 }
