@@ -20,6 +20,5 @@
   },
   "_source": "git://github.com/n33/skel.git",
   "_target": "~2.2.1",
-  "_originalSource": "skel",
-  "_direct": true
+  "_originalSource": "skel"
 }
